@@ -18,7 +18,7 @@ app.use("/api/v1/imaginator", imaginatorRoutes);
 
 app.get("/", async (req, res) => {
   res.status(200).json({
-    message: "Hello from DALL.E!",
+    message: "Hello from Imaginator AI!",
   });
 });
 
